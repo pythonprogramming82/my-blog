@@ -1,0 +1,270 @@
+body{
+    background-color: #ececec;
+}
+
+header{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header p{
+    margin-top: 5px;
+}
+
+#text-heder{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+footer{
+    background-color: #616161;
+    padding-top: 37px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+}
+
+#dive-main{
+    display: flex;
+    flex-direction: row;
+}
+
+#first-button{
+    background-color: #6d6d6d;
+    color: #a4a4a4;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+#dowomin-button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+#dowomin-button:hover{
+    background-color: rgb(185, 185, 185);
+    color: black;
+}
+
+
+.box {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 60px;
+    margin-top: -15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+  
+#box-dive-right{
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin: 35px;
+    margin-top: -10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#popular-post{
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 5px;
+    margin: 35px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#tags{
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 5px;
+    margin: 35px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.title {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.title-right{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+  
+.description {
+    padding-top: 5px;
+}
+
+.description-right{
+    margin-top: 10px;
+}
+
+.description h4 span{
+    color: #6d6d6d;
+}
+
+#image-dive-left{
+    width: 860px;
+    margin: 5px;
+}
+
+#image-dive-right{
+    padding-left: 45px;
+    margin-left: -11px;
+    width: 90%;
+}
+
+.rede-more{
+    background-color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+
+.rede-more:hover{
+    background-color: #acacac;
+}
+
+#comments{
+    padding-left: 540px;
+}
+
+#comments span{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#dive-blog{
+    margin-top: -20px;
+}
+
+#dive-title{
+    padding-top: 26px;
+}
+
+#circle{
+    border-radius: 200px;
+}
+
+#dive-left{
+    display: flex;
+    flex-direction: column;
+}
+
+#dive-right{
+    display: flex;
+    flex-direction: column;
+}
+
+#dive-my-name{
+    padding-top: 31px;
+}
+
+#title{
+    display: flex;
+    justify-content: start;
+    background-color: #ebebeb;
+    padding: 6px 16px !important;
+}
+
+#list{
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+#list ul{
+    list-style: none;
+    padding: 0;
+}
+  
+#list li{
+    border-bottom: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+  
+#list span{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1em;
+}
+  
+#list p{
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.first-tag{
+    border: 2px solid #050505;
+    background-color: #050505;
+    border-radius: 2px;
+    color: #ffffff;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center
+}
+
+.table-tags{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tag{
+    border: 2px solid #e8e8e8;
+    background-color: #e8e8e8;
+    border-radius: 2px;
+    color: #000000;
+    display:inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
